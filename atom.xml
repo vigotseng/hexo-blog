@@ -4,7 +4,7 @@
   <subtitle><![CDATA[屠夫9441的博客]]></subtitle>
   <link href="/atom.xml" rel="self"/>
   <link href="https://www.haomwei.com/"/>
-  <updated>2015-07-08T14:35:07.000Z</updated>
+  <updated>2015-08-08T09:04:15.000Z</updated>
   <id>https://www.haomwei.com/</id>
   
   <author>
@@ -13,6 +13,30 @@
   </author>
   
   <generator uri="http://hexo.io/">Hexo</generator>
+  
+  <entry>
+    <title><![CDATA[走吧]]></title>
+    <link href="https://www.haomwei.com/emotion/let-it-go.html"/>
+    <id>https://www.haomwei.com/emotion/let-it-go.html</id>
+    <published>2015-08-07T16:00:00.000Z</published>
+    <updated>2015-08-08T09:04:15.000Z</updated>
+    <content type="html"><![CDATA[<p>假期会让人变得懒散和堕落，只有当我身体坐在了离乡的列车里，才愿意写下这些早该记载的心情。现在的窗外是蓝天，白云，祁连山，和油菜花，美得让我常常愣住，忘记了低头。</p>
+<p>经过了太多次离别，于是会觉得平淡和麻木，没有了许多伤感的意味。尽管每次的情景都大抵相似，但也各有各的不同。例如这一回，父亲在马路对面的挥手告别竟让我想起了《背影》里面的桥段，不免有点唏嘘。这次的假期虽然短暂，但感觉格外充实，在有限的时间里见到了每一个想见的人。其实很多人在每次相见以后都难以预料重逢将是何时，只好在当时尽情体会，把酒言欢，好让以后多年不见时，有所回忆和纪念。</p>
+<p>这是我第一次乘坐兰新线的高铁，铁路沿线的风景正如想象中那样优美，远处的雪山让我想起了小时候从家里阳台上看出去的画面，我问爸爸那座山有多远，他告诉我，“望山跑死马”……但愿有朝一日我能坐在北京直达张掖的高铁上写下这些，而不仅仅是这其中的一段。</p>
+<p>彩虹出现了，好运要来了。</p>
+]]></content>
+    <summary type="html">
+    <![CDATA[假期会让人变得懒散和堕落，只有当我身体坐在了离乡的列车里，才愿意写下这些早该记载的心情。现在的窗外是蓝天，白云，祁连山，和油菜花，美得让我常常愣住，忘记了低头。]]>
+    
+    </summary>
+    
+      <category term="心情" scheme="https://www.haomwei.com/tags/emotion/"/>
+    
+      <category term="随笔" scheme="https://www.haomwei.com/tags/manuscript/"/>
+    
+      <category term="emotion" scheme="https://www.haomwei.com/categories/emotion/"/>
+    
+  </entry>
   
   <entry>
     <title><![CDATA[在旧都]]></title>
@@ -1828,10 +1852,10 @@ $ npm install
     <link href="https://www.haomwei.com/emotion/memory.html"/>
     <id>https://www.haomwei.com/emotion/memory.html</id>
     <published>2014-02-13T07:57:00.000Z</published>
-    <updated>2015-06-19T08:31:18.000Z</updated>
-    <content type="html"><![CDATA[<p>最近很喜欢没事就自恋地点开自己的博客，翻一翻以前写下的东西，试图看看那时候的自己。从2011年的初夏算起，这个小站也存在了将近三个年头了，自己都有点不敢相信。总共累积的竟有一百多篇博文，有阶段性的总结和自我激励，有心血来潮的抒情或致敬，也有早已记不清缘由的欢喜或感伤。重新审视之，时而能回想起从前的纠结或快乐，时而会觉得也曾灵光乍现一气呵成，时而又感受不到为何当时会惘然。其中距离现在比较久远的那些再读起来都有种陌生的感觉，也有不少背景音乐由于外链失效的原因再也播放不了，想必有一些我也回忆不起以当时的心境会选用哪一首歌曲吧。 由于之前有一整年的时间没有更新任何东西，所以本来就寥寥无几的几个访客恐怕现在早已忘记了这个安静的角落。但我并不会因为这样而放弃对这里小心翼翼地维护，还是会不时地在这里写下我心所想，此生所望。也许它早已成了我的一个习惯，一种寄托。</p>
-<p>  <img src="//dn-haomwei.qbox.me/images/cecaabdff0c0cf5697d40ac2691c6708bf5ee998.jpg" alt="2013年7月19日@五道口"></p>
-]]></content>
+    <updated>2015-08-08T08:47:54.000Z</updated>
+    <content type="html"><![CDATA[<p>最近很喜欢没事就自恋地点开自己的博客，翻一翻以前写下的东西，试图看看那时候的自己。从2011年的初夏算起，这个小站也存在了将近三个年头了，自己都有点不敢相信。总共累积的竟有一百多篇博文，有阶段性的总结和自我激励，有心血来潮的抒情或致敬，也有早已记不清缘由的欢喜或感伤。重新审视之，时而能回想起从前的纠结或快乐，时而会觉得也曾灵光乍现一气呵成，时而又感受不到为何当时会惘然。其中距离现在比较久远的那些再读起来都有种陌生的感觉，也有不少背景音乐由于外链失效的原因再也播放不了，想必有一些我也回忆不起以当时的心境会选用哪一首歌曲吧。</p>
+<p>由于之前有一整年的时间没有更新任何东西，所以本来就寥寥无几的几个访客恐怕现在早已忘记了这个安静的角落。但我并不会因为这样而放弃对这里小心翼翼地维护，还是会不时地在这里写下我心所想，此生所望。也许它早已成了我的一个习惯，一种寄托。</p>
+<center><img src="//dn-haomwei.qbox.me/images/cecaabdff0c0cf5697d40ac2691c6708bf5ee998.jpg" alt="2013年7月19日@五道口"></center>]]></content>
     <summary type="html">
     <![CDATA[<p>最近很喜欢没事就自恋地点开自己的博客，翻一翻以前写下的东西，试图看看那时候的自己。从2011年的初夏算起，这个小站也存在了将近三个年头了，自己都有点不敢相信。总共累积的竟有一百多篇博文，有阶段性的总结和自我激励，有心血来潮的抒情或致敬，也有早已记不清缘由的欢喜或感伤。重新审]]>
     </summary>
