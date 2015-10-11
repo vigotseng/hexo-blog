@@ -1789,23 +1789,28 @@ $ npm install
     <link href="https://www.haomwei.com/technology/maupassant.html"/>
     <id>https://www.haomwei.com/technology/maupassant.html</id>
     <published>2014-03-10T05:12:00.000Z</published>
-    <updated>2015-10-11T05:07:28.000Z</updated>
-    <content type="html"><![CDATA[<p>尝试过一些或文艺或华丽或功能丰富的模板之后，还是决定返璞归真。博客现在使用的主题便是<a href="http://pagecho.com" target="_blank" rel="external">Cho</a>提供的一款非常简洁的主题——<a href="http://pagecho.com/typecho-theme-maupassant.html" target="_blank" rel="external">Maupassant</a>，查了一下这个单词应该是指法国短篇小说莫泊桑，不知道作者为何取了这样一个名字。也许是想要作品像莫泊桑的小说一般短小但精致？这是一个体积只有20Kb的响应式主题，在各种尺寸的设备上表现出色。但是一眼看上去实在是不起眼，用<a href="http://typecho.me/663.html" target="_blank" rel="external">TYPECHO THEMES</a>收录的评价来说，是“非常简单的一个模板，简单到渣，但是很优秀。”的确，看似简陋，实则蕴含着极简主义的美观和大气，主题发布页面的回复者也无不表示对这种风格的赞赏。个人使用起来同样方便顺手，功能齐全，修改简单。</p>
+    <updated>2015-10-11T08:54:00.000Z</updated>
+    <content type="html"><![CDATA[<p>尝试过一些或文艺或华丽或功能丰富的模板之后，还是决定返璞归真。博客现在使用的主题便是<a href="http://chopstack.com" target="_blank" rel="external">Cho</a>提供的一款非常简洁的主题——<a href="https://github.com/pagecho/maupassant/" target="_blank" rel="external">Maupassant</a>，查了一下这个单词应该是指法国短篇小说家莫泊桑，不知道作者为何取了这样一个名字。也许是想要作品像莫泊桑的小说一般短小但精致？这是一个体积只有20Kb的响应式主题，在各种尺寸的设备上表现出色。但是一眼看上去实在是不起眼，用<a href="http://typecho.me/663.html" target="_blank" rel="external">TYPECHO THEMES</a>收录的评价来说，是“非常简单的一个模板，简单到渣，但是很优秀。”的确，看似简陋，实则蕴含着极简主义的美观和大气，主题发布页面的回复者也无不表示对这种风格的赞赏。个人使用起来同样方便顺手，功能齐全，修改简单。</p>
 <center><img src="//dn-haomwei.qbox.me/images/50576b3498bdb0390e64294af13f55cad3c6edcd.png" alt="maupassant"></center>
 
-<p>作者说主题以GPLv2 General Public License发布，可以免费使用，并按照个人意愿进行修改、移植，也欢迎去反馈问题。Github页面如下：</p>
+<p>作者说主题以GPLv2 General Public License发布，可以免费使用，并按照个人意愿进行修改、移植，也欢迎去反馈问题。目前这款优秀的主题已经被移植到了多个平台上，它们的Github页面如下：</p>
 <ul>
 <li>Typecho：<a href="https://github.com/pagecho/maupassant/" target="_blank" rel="external">https://github.com/pagecho/maupassant/</a></li>
 <li>Wordpress：<a href="https://github.com/iMuFeng/maupassant/" target="_blank" rel="external">https://github.com/iMuFeng/maupassant/</a></li>
 <li>Octopress：<a href="https://github.com/pagecho/mewpassant/" target="_blank" rel="external">https://github.com/pagecho/mewpassant/</a></li>
 <li>Farbox：<a href="https://github.com/pagecho/Maupassant-farbox/" target="_blank" rel="external">https://github.com/pagecho/Maupassant-farbox/</a></li>
-<li>Hexo：<a href="https://github.com/icylogic/maupassant-hexo/" target="_blank" rel="external">https://github.com/icylogic/maupassant-hexo/</a></li>
+<li>Hexo：<a href="https://github.com/tufu9441/maupassant-hexo/" target="_blank" rel="external">https://github.com/tufu9441/maupassant-hexo/</a></li>
 <li>Ghost：<a href="https://github.com/LjxPrime/maupassant/" target="_blank" rel="external">https://github.com/LjxPrime/maupassant/</a></li>
 </ul>
 ]]></content>
     <summary type="html">
-    <![CDATA[<p>尝试过一些或文艺或华丽或功能丰富的模板之后，还是决定返璞归真。博客现在使用的主题便是<a href="http://pagecho.com" target="_blank" rel="external">Cho</a>提供的一款非常简洁的主题——<a href="http:]]>
+    <![CDATA[尝试过一些或文艺或华丽或功能丰富的模板之后，还是决定返璞归真。博客现在使用的主题便是Cho提供的一款非常简洁的主题——Maupassant，查了一下这个单词应该是指法国短篇小说家莫泊桑，不知道作者为何取了这样一个名字。也许是想要作品像莫泊桑的小说一般短小但精致？这是一个体积只有20Kb的响应式主题，在各种尺寸的设备上表现出色。但是一眼看上去实在是不起眼，用TYPECHO THEMES收录的评价来说，是“非常简单的一个模板，简单到渣，但是很优秀。”的确，看似简陋，实则蕴含着极简主义的美观和大气，主题发布页面的回复者也无不表示对这种风格的赞赏。个人使用起来同样方便顺手，功能齐全，修改简单。]]>
+    
     </summary>
+    
+      <category term="GitHub" scheme="https://www.haomwei.com/tags/GitHub/"/>
+    
+      <category term="Hexo" scheme="https://www.haomwei.com/tags/Hexo/"/>
     
       <category term="Internet" scheme="https://www.haomwei.com/tags/Internet/"/>
     
