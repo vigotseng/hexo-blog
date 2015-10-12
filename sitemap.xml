@@ -2,6 +2,11 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
   
   <url>
+    <loc>https://www.haomwei.com/history/index.html</loc>
+    <lastmod>2015-10-12T10:48:14.000Z</lastmod>
+  </url>
+  
+  <url>
     <loc>https://www.haomwei.com/emotion/return.html</loc>
     <lastmod>2015-10-11T10:36:22.000Z</lastmod>
   </url>
@@ -382,12 +387,12 @@
   </url>
   
   <url>
-    <loc>https://www.haomwei.com/emotion/no-longer-let-you-alone.html</loc>
+    <loc>https://www.haomwei.com/emotion/my-internet-career.html</loc>
     <lastmod>2015-06-19T08:31:18.000Z</lastmod>
   </url>
   
   <url>
-    <loc>https://www.haomwei.com/emotion/god-bless-me-2.html</loc>
+    <loc>https://www.haomwei.com/emotion/no-longer-let-you-alone.html</loc>
     <lastmod>2015-06-19T08:31:18.000Z</lastmod>
   </url>
   
@@ -432,12 +437,7 @@
   </url>
   
   <url>
-    <loc>https://www.haomwei.com/emotion/further.html</loc>
-    <lastmod>2015-06-19T08:31:18.000Z</lastmod>
-  </url>
-  
-  <url>
-    <loc>https://www.haomwei.com/emotion/Jams-Hsiao.html</loc>
+    <loc>https://www.haomwei.com/emotion/god-bless-me-2.html</loc>
     <lastmod>2015-06-19T08:31:18.000Z</lastmod>
   </url>
   
@@ -447,12 +447,27 @@
   </url>
   
   <url>
-    <loc>https://www.haomwei.com/technology/import-users-to-duoshuo.html</loc>
+    <loc>https://www.haomwei.com/emotion/Jams-Hsiao.html</loc>
     <lastmod>2015-06-19T08:31:18.000Z</lastmod>
   </url>
   
   <url>
     <loc>https://www.haomwei.com/technology/Hello-Typecho.html</loc>
+    <lastmod>2015-06-19T08:31:18.000Z</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://www.haomwei.com/emotion/further.html</loc>
+    <lastmod>2015-06-19T08:31:18.000Z</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://www.haomwei.com/emotion/A-Sunny-Day.html</loc>
+    <lastmod>2015-06-19T08:31:18.000Z</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://www.haomwei.com/emotion/about-touch.html</loc>
     <lastmod>2015-06-19T08:31:18.000Z</lastmod>
   </url>
   
@@ -467,22 +482,7 @@
   </url>
   
   <url>
-    <loc>https://www.haomwei.com/emotion/about-touch.html</loc>
-    <lastmod>2015-06-19T08:31:18.000Z</lastmod>
-  </url>
-  
-  <url>
-    <loc>https://www.haomwei.com/emotion/A-Sunny-Day.html</loc>
-    <lastmod>2015-06-19T08:31:18.000Z</lastmod>
-  </url>
-  
-  <url>
-    <loc>https://www.haomwei.com/emotion/my-internet-career.html</loc>
-    <lastmod>2015-06-19T08:31:18.000Z</lastmod>
-  </url>
-  
-  <url>
-    <loc>https://www.haomwei.com/emotion/about-116.html</loc>
+    <loc>https://www.haomwei.com/technology/import-users-to-duoshuo.html</loc>
     <lastmod>2015-06-19T08:31:18.000Z</lastmod>
   </url>
   
@@ -492,7 +492,7 @@
   </url>
   
   <url>
-    <loc>https://www.haomwei.com/emotion/about-cigarettes.html</loc>
+    <loc>https://www.haomwei.com/emotion/about-116.html</loc>
     <lastmod>2015-06-19T08:31:18.000Z</lastmod>
   </url>
   
@@ -507,6 +507,11 @@
   </url>
   
   <url>
+    <loc>https://www.haomwei.com/emotion/about-cigarettes.html</loc>
+    <lastmod>2015-06-19T08:31:18.000Z</lastmod>
+  </url>
+  
+  <url>
     <loc>https://www.haomwei.com/emotion/about-death.html</loc>
     <lastmod>2015-06-19T08:31:18.000Z</lastmod>
   </url>
@@ -514,11 +519,6 @@
   <url>
     <loc>https://www.haomwei.com/about/index.html</loc>
     <lastmod>2015-05-25T04:11:18.000Z</lastmod>
-  </url>
-  
-  <url>
-    <loc>https://www.haomwei.com/history/index.html</loc>
-    <lastmod>2015-05-24T09:58:57.000Z</lastmod>
   </url>
   
   <url>
@@ -562,7 +562,7 @@
   </url>
   
   <url>
-    <loc>https://www.haomwei.com/emotion/about-her.html</loc>
+    <loc>https://www.haomwei.com/emotion/about-friend.html</loc>
     <lastmod>2015-01-18T15:29:34.000Z</lastmod>
   </url>
   
@@ -572,17 +572,22 @@
   </url>
   
   <url>
+    <loc>https://www.haomwei.com/emotion/about-her.html</loc>
+    <lastmod>2015-01-18T15:29:34.000Z</lastmod>
+  </url>
+  
+  <url>
     <loc>https://www.haomwei.com/emotion/children-day.html</loc>
     <lastmod>2015-01-18T15:29:34.000Z</lastmod>
   </url>
   
   <url>
-    <loc>https://www.haomwei.com/emotion/early-and-late.html</loc>
+    <loc>https://www.haomwei.com/emotion/a-beautiful-story.html</loc>
     <lastmod>2015-01-18T15:29:34.000Z</lastmod>
   </url>
   
   <url>
-    <loc>https://www.haomwei.com/emotion/a-beautiful-story.html</loc>
+    <loc>https://www.haomwei.com/emotion/early-and-late.html</loc>
     <lastmod>2015-01-18T15:29:34.000Z</lastmod>
   </url>
   
@@ -607,7 +612,7 @@
   </url>
   
   <url>
-    <loc>https://www.haomwei.com/emotion/about-friend.html</loc>
+    <loc>https://www.haomwei.com/emotion/about-heartless.html</loc>
     <lastmod>2015-01-18T15:29:34.000Z</lastmod>
   </url>
   
@@ -627,17 +632,12 @@
   </url>
   
   <url>
-    <loc>https://www.haomwei.com/emotion/something-about-wudaokou.html</loc>
-    <lastmod>2015-01-18T15:29:34.000Z</lastmod>
-  </url>
-  
-  <url>
     <loc>https://www.haomwei.com/emotion/Home.html</loc>
     <lastmod>2015-01-18T15:29:34.000Z</lastmod>
   </url>
   
   <url>
-    <loc>https://www.haomwei.com/emotion/about-sense-of-security.html</loc>
+    <loc>https://www.haomwei.com/emotion/something-about-wudaokou.html</loc>
     <lastmod>2015-01-18T15:29:34.000Z</lastmod>
   </url>
   
@@ -657,7 +657,7 @@
   </url>
   
   <url>
-    <loc>https://www.haomwei.com/emotion/about-sleepless.html</loc>
+    <loc>https://www.haomwei.com/emotion/about-sense-of-security.html</loc>
     <lastmod>2015-01-18T15:29:34.000Z</lastmod>
   </url>
   
@@ -667,12 +667,17 @@
   </url>
   
   <url>
-    <loc>https://www.haomwei.com/emotion/the-same-sky.html</loc>
+    <loc>https://www.haomwei.com/emotion/about-sleepless.html</loc>
     <lastmod>2015-01-18T15:29:34.000Z</lastmod>
   </url>
   
   <url>
     <loc>https://www.haomwei.com/emotion/A-Little-Change.html</loc>
+    <lastmod>2015-01-18T15:29:34.000Z</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://www.haomwei.com/emotion/the-same-sky.html</loc>
     <lastmod>2015-01-18T15:29:34.000Z</lastmod>
   </url>
   
@@ -683,11 +688,6 @@
   
   <url>
     <loc>https://www.haomwei.com/emotion/two-years.html</loc>
-    <lastmod>2015-01-18T15:29:34.000Z</lastmod>
-  </url>
-  
-  <url>
-    <loc>https://www.haomwei.com/emotion/about-heartless.html</loc>
     <lastmod>2015-01-18T15:29:34.000Z</lastmod>
   </url>
   
