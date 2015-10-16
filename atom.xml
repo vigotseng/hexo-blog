@@ -411,7 +411,7 @@
     <link href="https://www.haomwei.com/technology/how-to-install-hexo-on-mac.html"/>
     <id>https://www.haomwei.com/technology/how-to-install-hexo-on-mac.html</id>
     <published>2015-04-14T16:00:00.000Z</published>
-    <updated>2015-05-07T12:46:10.000Z</updated>
+    <updated>2015-10-16T02:34:30.000Z</updated>
     <content type="html"><![CDATA[<p>Hexo是目前常见的静态博客程序之一，出自台湾大学生<a href="http://zespia.tw" target="_blank" rel="external">tommy351</a>之手，是一个基于Node.js的静态博客程序，其编译上百篇文字只需要几秒。Hexo生成的静态网页可以直接放到GitHub Pages，BAE，SAE等平台上。</p>
 <p><strong>首先整理一下安装思路：</strong></p>
 <ol>
@@ -423,8 +423,9 @@
 </ol>
 <hr>
 <h2 id="安装Homebrew">安装Homebrew</h2><p>打开终端窗口, 粘贴以下脚本：</p>
-<pre><code>$ ruby -e &quot;$(curl -fsSL https://raw.githubusercontent.com/Homebrew/install/master/install)&quot;
-</code></pre><hr>
+<pre><code class="bash">$ ruby -e &quot;$(curl -fsSL https://raw.githubusercontent.com/Homebrew/install/master/install)&quot;
+</code></pre>
+<hr>
 <h2 id="安装Node-js">安装Node.js</h2><p>Hexo官网上说安装Node.js 的最佳方式是使用nvm。因此推荐的安装流程如下：</p>
 <ol>
 <li>使用Homebrew安裝nvm</li>

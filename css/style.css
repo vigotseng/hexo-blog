@@ -20,7 +20,8 @@ body {
 
 .content_container {
   padding-right: 50px;
-  padding-top: 20px; }
+  padding-top: 20px;
+  border-right: 1px solid #ddd; }
 
 #fb_comments_container {
   margin-top: 35px;
@@ -84,7 +85,6 @@ a:focus {
         border-bottom-color: #fff; }
 
 #sidebar {
-  border-left: 1px solid #ddd;
   padding-left: 35px;
   margin-top: 45px;
   padding-bottom: 20px;
@@ -272,7 +272,8 @@ a:focus {
   .body_container {
     padding: 0 30px; }
   .content_container {
-    padding-right: 15px; }
+    padding-right: 15px;
+    border: 0; }
   #sidebar {
     display: none; }
   #header .site-name {
