@@ -2,6 +2,11 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
   
   <url>
+    <loc>https://www.haomwei.com/history/index.html</loc>
+    <lastmod>2015-10-20T05:43:32.000Z</lastmod>
+  </url>
+  
+  <url>
     <loc>https://www.haomwei.com/emotion/random-thought-in-night.html</loc>
     <lastmod>2015-10-17T08:13:45.000Z</lastmod>
   </url>
@@ -19,11 +24,6 @@
   <url>
     <loc>https://www.haomwei.com/about/index.html</loc>
     <lastmod>2015-10-12T16:58:50.000Z</lastmod>
-  </url>
-  
-  <url>
-    <loc>https://www.haomwei.com/history/index.html</loc>
-    <lastmod>2015-10-12T16:49:08.000Z</lastmod>
   </url>
   
   <url>
