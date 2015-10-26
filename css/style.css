@@ -203,7 +203,7 @@ a:focus {
       .post .post-content ul ul, .post .post-content ol ul {
         margin: 0; }
     .post .post-content table {
-      margin: 2em 0; }
+      margin: 0; }
   .post .tags {
     padding-bottom: 1em; }
     .post .tags a {
@@ -577,11 +577,12 @@ div {
 pre, .highlight {
   background: #2d2d2d;
   margin: 20px 0;
-  padding: 15px;
+  padding: 5px;
   overflow: auto;
-  font-size: 13px;
+  font-size: 15px;
   color: #ccc;
-  line-height: 1.6; }
+  line-height: 1.6;
+  border-radius: 7px; }
 
 .highlight .gutter pre, .gist .gist-file .gist-data .line-numbers {
   color: #666; }
