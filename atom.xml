@@ -448,8 +448,7 @@
 </ol>
 <hr>
 <h2 id="安装Homebrew">安装Homebrew</h2><p>打开终端窗口, 粘贴以下脚本：</p>
-<pre><code class="bash">$ ruby -e &quot;$(curl -fsSL https://raw.githubusercontent.com/Homebrew/install/master/install)&quot;
-</code></pre>
+<figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">$ ruby <span class="operator">-e</span> <span class="string">"<span class="variable">$(curl -fsSL https://raw.githubusercontent.com/Homebrew/install/master/install)</span>"</span></span><br></pre></td></tr></table></figure>
 <hr>
 <h2 id="安装Node-js">安装Node.js</h2><p>Hexo官网上说安装Node.js 的最佳方式是使用nvm。因此推荐的安装流程如下：</p>
 <ol>
@@ -457,77 +456,45 @@
 <li>使用nvm安裝Node.js</li>
 <li>使用nvm无痛切换Node.js版本（本文略）</li>
 </ol>
-<h3 id="使用Homebrew安裝nvm">使用Homebrew安裝nvm</h3><pre><code>$ brew install nvm
-</code></pre><p>安裝完后，为了让你可以直接在shell使用nvm指令，必须在你的 .bash_profile 加入以下这行：</p>
-<pre><code>$ source $(brew --prefix nvm)/nvm.sh
-</code></pre><p>或者直接输入以下这行来加入：</p>
-<pre><code>$ echo &quot;source $(brew --prefix nvm)/nvm.sh&quot; &gt;&gt; .bash_profile
-</code></pre><p>记得重新source你的 .bash_profile来让设定生效：</p>
-<pre><code>$ . ~/.bash_profile
-</code></pre><p>OK，以上就完成了nvm的安裝。</p>
+<h3 id="使用Homebrew安裝nvm">使用Homebrew安裝nvm</h3><figure class="highlight armasm"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">$ <span class="keyword">brew </span>install nvm</span><br></pre></td></tr></table></figure>
+<p>安裝完后，为了让你可以直接在shell使用nvm指令，必须在你的 .bash_profile 加入以下这行：</p>
+<figure class="highlight elixir"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line"><span class="variable">$ </span>source <span class="variable">$(</span>brew --prefix nvm)/nvm.sh</span><br></pre></td></tr></table></figure>
+<p>或者直接输入以下这行来加入：</p>
+<figure class="highlight ruby"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line"><span class="variable">$ </span>echo <span class="string">"source $(brew --prefix nvm)/nvm.sh"</span> <span class="prompt">&gt;&gt; </span>.bash_profile</span><br></pre></td></tr></table></figure>
+<p>记得重新source你的 .bash_profile来让设定生效：</p>
+<figure class="highlight elixir"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line"><span class="variable">$ </span>. ~<span class="regexp">/.bash_profile</span></span><br></pre></td></tr></table></figure>
+<p>OK，以上就完成了nvm的安裝。</p>
 <h3 id="使用nvm安裝Node-js">使用nvm安裝Node.js</h3><p>安裝完了nvm，接著安裝主角node。先用$ nvm ls-remote指令看一下有哪些版本可以安裝：</p>
-<pre><code>$ nvm ls-remote
-      .
-      .
-      .
-  v0.10.20
-  v0.10.21
-  v0.10.22
-  v0.10.23
-  v0.10.24
-   v0.11.0
-   v0.11.1
-   v0.11.2
-   v0.11.3
-   v0.11.4
-   v0.11.5
-   v0.11.6
-   v0.11.7
-   v0.11.8
-   v0.11.9
-  v0.11.10
-</code></pre><p>直接用</p>
-<pre><code>$ nvm install &lt;version&gt;
-</code></pre><p>指令安装<a href="https://nodejs.org" target="_blank" rel="external"><em>官网</em></a>上建议的版本：</p>
-<pre><code>$ nvm install v0.12.2
-######################################################################## 100.0%
-
-Now using node v0.12.2
-</code></pre><h3 id="使用nvm无痛切换Node-js版本">使用nvm无痛切换Node.js版本</h3><p>详见<a href="http://icarus4.logdown.com/posts/175092-nodejs-installation-guide" target="_blank" rel="external"><em>原文</em></a>。</p>
+<figure class="highlight erlang"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br><span class="line">8</span><br><span class="line">9</span><br><span class="line">10</span><br><span class="line">11</span><br><span class="line">12</span><br><span class="line">13</span><br><span class="line">14</span><br><span class="line">15</span><br><span class="line">16</span><br><span class="line">17</span><br><span class="line">18</span><br><span class="line">19</span><br><span class="line">20</span><br></pre></td><td class="code"><pre><span class="line">$ nvm ls-remote</span><br><span class="line">      .</span><br><span class="line">      .</span><br><span class="line">      .</span><br><span class="line">  v0.<span class="number">10.20</span></span><br><span class="line">  v0.<span class="number">10.21</span></span><br><span class="line">  v0.<span class="number">10.22</span></span><br><span class="line">  v0.<span class="number">10.23</span></span><br><span class="line">  v0.<span class="number">10.24</span></span><br><span class="line">   v0.<span class="number">11.0</span></span><br><span class="line">   v0.<span class="number">11.1</span></span><br><span class="line">   v0.<span class="number">11.2</span></span><br><span class="line">   v0.<span class="number">11.3</span></span><br><span class="line">   v0.<span class="number">11.4</span></span><br><span class="line">   v0.<span class="number">11.5</span></span><br><span class="line">   v0.<span class="number">11.6</span></span><br><span class="line">   v0.<span class="number">11.7</span></span><br><span class="line">   v0.<span class="number">11.8</span></span><br><span class="line">   v0.<span class="number">11.9</span></span><br><span class="line">  v0.<span class="number">11.10</span></span><br></pre></td></tr></table></figure>
+<p>直接用</p>
+<figure class="highlight sql"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">$ nvm <span class="operator"><span class="keyword">install</span> &lt;<span class="keyword">version</span>&gt;</span></span><br></pre></td></tr></table></figure>
+<p>指令安装<a href="https://nodejs.org" target="_blank" rel="external"><em>官网</em></a>上建议的版本：</p>
+<figure class="highlight coffeescript"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br></pre></td><td class="code"><pre><span class="line">$ nvm install v0.12.2</span><br><span class="line"><span class="comment">######</span><span class="comment">######</span><span class="comment">######</span><span class="comment">######</span><span class="comment">######</span><span class="comment">######</span><span class="comment">######</span><span class="comment">######</span><span class="comment">######</span><span class="comment">######</span><span class="comment">######</span><span class="comment">######</span> <span class="number">100.0</span>%</span><br><span class="line"></span><br><span class="line">Now using node v0.12.2</span><br></pre></td></tr></table></figure>
+<h3 id="使用nvm无痛切换Node-js版本">使用nvm无痛切换Node.js版本</h3><p>详见<a href="http://icarus4.logdown.com/posts/175092-nodejs-installation-guide" target="_blank" rel="external"><em>原文</em></a>。</p>
 <hr>
 <h2 id="安装Git">安装Git</h2><p>在终端中输入：</p>
-<pre><code>$ brew install git
-</code></pre><hr>
+<figure class="highlight armasm"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">$ <span class="keyword">brew </span>install git</span><br></pre></td></tr></table></figure>
+<hr>
 <h2 id="安装Hexo">安装Hexo</h2><p>所有必备的应用程序安装完成后，即可使用 npm 安装 Hexo：</p>
-<pre><code>$ npm install -g hexo-cli
-</code></pre><p>-g或–global表示全局安装模块，如果没有这个参数，会安装在当前目录的node_modules子目录下。</p>
+<figure class="highlight stata"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">$ npm install -<span class="keyword">g</span> hexo-<span class="keyword">cli</span></span><br></pre></td></tr></table></figure>
+<p>-g或–global表示全局安装模块，如果没有这个参数，会安装在当前目录的node_modules子目录下。</p>
 <p>安装 Hexo 完成后，请执行下列命令，Hexo 将会在指定文件夹中新建所需要的文件。</p>
-<pre><code>$ hexo init &lt;folder&gt;
-$ cd &lt;folder&gt;
-$ npm install
-</code></pre><p>$ npm install表示安装当前目录package.json文件中配置的dependencies模块。</p>
+<figure class="highlight elixir"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br></pre></td><td class="code"><pre><span class="line"><span class="variable">$ </span>hexo init &lt;folder&gt;</span><br><span class="line"><span class="variable">$ </span>cd &lt;folder&gt;</span><br><span class="line"><span class="variable">$ </span>npm install</span><br></pre></td></tr></table></figure>
+<p>$ npm install表示安装当前目录package.json文件中配置的dependencies模块。</p>
 <hr>
 <h2 id="更新Hexo">更新Hexo</h2><p>官方发布了<a href="https://github.com/hexojs/hexo/releases" target="_blank" rel="external"><em>新版本</em></a>后，可以在Hexo建立的博客目录内运行：</p>
-<pre><code>$ npm update
-</code></pre><p>用如下命令可以检查package.json文件中配置的dependencies的版本号：</p>
-<pre><code>$ npm ls --depth=0
-</code></pre><hr>
+<figure class="highlight coffeescript"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">$ <span class="built_in">npm</span> update</span><br></pre></td></tr></table></figure>
+<p>用如下命令可以检查package.json文件中配置的dependencies的版本号：</p>
+<figure class="highlight applescript"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">$ npm ls <span class="comment">--depth=0</span></span><br></pre></td></tr></table></figure>
+<hr>
 <h2 id="部署">部署</h2><p>Hexo 3.0版本需要单独安装发布器插件，检查博客目录的node_modules中有没有hexo-deployer-git文件夹，若没有，执行以下命令安装：</p>
-<pre><code>$ npm install hexo-deployer-git --save
-</code></pre><p>添加-save参数安装的模块的名字及其版本信息会出现在package.json的dependencies选项中。</p>
+<figure class="highlight sql"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">$ npm <span class="operator"><span class="keyword">install</span> hexo-deployer-git <span class="comment">--save</span></span></span><br></pre></td></tr></table></figure>
+<p>添加-save参数安装的模块的名字及其版本信息会出现在package.json的dependencies选项中。</p>
 <p>另外，从Hexo 3.0开始配置文件_config.yml中的部署类型记得要填写成git:</p>
-<pre><code>deploy:
-  type: git ##部署类型，其它类型自行google之
-  repo: &lt;repository url&gt; ##git仓库地址
-  branch: [branch] ##git 页面分支
-  message: [message] ##git message建议默认字段update 可以自定义
-</code></pre><p>如果要同时部署在GitHub和GitCafe上，可以按照下面格式填写：</p>
-<pre><code>deploy:
-   type: git
-   repo: 
-      github: https://github.com/&lt;username&gt;/&lt;username&gt;.github.io.git,master
-      gitcafe: https://gitcafe.com/&lt;username&gt;/&lt;username&gt;.git,gitcafe-pages
-</code></pre><p>如果想使用SSH形式连接，请参考<a href="http://xuanwo.org/2015/02/07/generate-a-ssh-key/" target="_blank" rel="external"><em>这篇文章</em></a>。</p>
+<figure class="highlight puppet"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br></pre></td><td class="code"><pre><span class="line">deploy:</span><br><span class="line">  <span class="built_in">type</span>: git <span class="comment">##部署类型，其它类型自行google之</span></span><br><span class="line">  repo: &lt;repository url&gt; <span class="comment">##git仓库地址</span></span><br><span class="line">  branch: [branch] <span class="comment">##git 页面分支</span></span><br><span class="line">  <span class="literal">message</span>: [<span class="literal">message</span>] <span class="comment">##git message建议默认字段update 可以自定义</span></span><br></pre></td></tr></table></figure>
+<p>如果要同时部署在GitHub和GitCafe上，可以按照下面格式填写：</p>
+<figure class="highlight less"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br></pre></td><td class="code"><pre><span class="line"><span class="attribute">deploy</span>:</span><br><span class="line">   <span class="attribute">type</span>: git</span><br><span class="line">   <span class="attribute">repo</span>: </span><br><span class="line">      <span class="attribute">github</span>: <span class="attribute">https</span>:<span class="comment">//github.com/&lt;username&gt;/&lt;username&gt;.github.io.git,master</span></span><br><span class="line">      <span class="attribute">gitcafe</span>: <span class="attribute">https</span>:<span class="comment">//gitcafe.com/&lt;username&gt;/&lt;username&gt;.git,gitcafe-pages</span></span><br></pre></td></tr></table></figure>
+<p>如果想使用SSH形式连接，请参考<a href="http://xuanwo.org/2015/02/07/generate-a-ssh-key/" target="_blank" rel="external"><em>这篇文章</em></a>。</p>
 <p><strong>以上。至于安装后的其它配置和使用问题，请参考其它教程。
 </strong></p>
 <hr>
@@ -887,51 +854,12 @@ $ npm install
     <content type="html"><![CDATA[<p>绝大多数国内的静态博客用户使用的第三方评论系统应该都是多说，然而默认情况下，只有在用户被回复时（即别人点击某条评论下的“回复”按钮），被回复者才会收到多说的提醒和邮件通知；当读者首次评论一篇文章时，文章的作者是无法收到通知的，只能自己去多说后台查看，这给一些强迫症患者带来诸多不便。</p>
 <p>不过，多说官方提供了“<a href="http://dev.duoshuo.com/docs/51435552047fe92f490225de" target="_blank" rel="external">同步用户到多说</a>”的API接口，接口说明中提到：“同步用户信息到多说，用于历史评论中用户的展示，站点管理权限的匹配，以及<strong>文章被评论时的提醒</strong>等功能。”实现方式是通过提交POST请求。下面我们就用JavaScript写一段代码然后执行，简单粗暴地提交一个POST请求，利用这个接口实现我们需要的功能。（当然你可以用任何语言写成脚本然后执行，jQuery、Node.js、PHP等等都行。）</p>
 <p>新建一个HTML文件，在其中输入以下代码：</p>
-<pre><code>    &lt;!DOCTYPE HTML&gt;
-    &lt;html lang=&quot;zh-CN&quot;&gt;
-    &lt;head&gt;
-    &lt;meta charset=&quot;UTF-8&quot;&gt;
-    &lt;/head&gt;
-    &lt;body&gt;
-    &lt;script&gt;
-    var xmlHttpRequest;
-    function createXmlHttpRequest(){    
-        if(window.ActiveXObject){
-            return new ActiveXObject(&quot;Microsoft.XMLHTTP&quot;);    
-        }else if(window.XMLHttpRequest){
-            return new XMLHttpRequest();    
-        }    
-    }    
-
-    var url = &quot;http://api.duoshuo.com/users/import.json&quot;;
-    var data = &quot;short_name=***&amp;secret=*********************************&amp;users[0][user_key]=1&amp;users[0][name]=***&amp;users[0][email]=***@***.***&quot; 
-    //short_name为站点申请的多说二级域名；secret为多说后台设置中显示的站点密钥；user[0][user_key]为导入的用户在当前站点的ID；users[0][name]为导入用户的显示名，users[0][email]为接收提醒的邮箱地址。
-
-    xmlHttpRequest = createXmlHttpRequest();
-    xmlHttpRequest.open(&quot;POST&quot;,url,true);
-    xmlHttpRequest.onreadystatechange = callback;    
-    xmlHttpRequest.setRequestHeader(&quot;Content-Length&quot;,data.length);  
-
-    xmlHttpRequest.setRequestHeader(&quot;Content-Type&quot;,
-                &quot;application/x-www-form-urlencoded;&quot;);        
-
-    xmlHttpRequest.send(data);      
-
-    function callback(){    
-        if(xmlHttpRequest.readyState == 4){if(xmlHttpRequest.status == 200){    
-            alert(xmlHttpRequest.responseText);
-              }
-          }
-    }
-
-    &lt;/script&gt;
-    &lt;/body&gt;
-    &lt;/html&gt;
-</code></pre><p>将其中的相关参数修改成自己站点对应的以后，保存为.html格式的文件，直接用浏览器打开执行，如果弹出的提示框中的返回信息包含“code”:0，说明执行正确，用户导入成功。这时多说的后台用户应该显示出导入的用户，如下图所示（其中第二个用户为通过POST请求导入的用户）：</p>
+<figure class="highlight dust"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br><span class="line">8</span><br><span class="line">9</span><br><span class="line">10</span><br><span class="line">11</span><br><span class="line">12</span><br><span class="line">13</span><br><span class="line">14</span><br><span class="line">15</span><br><span class="line">16</span><br><span class="line">17</span><br><span class="line">18</span><br><span class="line">19</span><br><span class="line">20</span><br><span class="line">21</span><br><span class="line">22</span><br><span class="line">23</span><br><span class="line">24</span><br><span class="line">25</span><br><span class="line">26</span><br><span class="line">27</span><br><span class="line">28</span><br><span class="line">29</span><br><span class="line">30</span><br><span class="line">31</span><br><span class="line">32</span><br><span class="line">33</span><br><span class="line">34</span><br><span class="line">35</span><br><span class="line">36</span><br><span class="line">37</span><br><span class="line">38</span><br><span class="line">39</span><br><span class="line">40</span><br></pre></td><td class="code"><pre><span class="line"><span class="xml"><span class="doctype">&lt;!DOCTYPE HTML&gt;</span></span><br><span class="line"><span class="tag">&lt;<span class="title">html</span> <span class="attribute">lang</span>=<span class="value">"zh-CN"</span>&gt;</span></span><br><span class="line"><span class="tag">&lt;<span class="title">head</span>&gt;</span></span><br><span class="line"><span class="tag">&lt;<span class="title">meta</span> <span class="attribute">charset</span>=<span class="value">"UTF-8"</span>&gt;</span></span><br><span class="line"><span class="tag">&lt;/<span class="title">head</span>&gt;</span></span><br><span class="line"><span class="tag">&lt;<span class="title">body</span>&gt;</span></span><br><span class="line"><span class="tag">&lt;<span class="title">script</span>&gt;</span><span class="actionscript"></span><br><span class="line"><span class="keyword">var</span> xmlHttpRequest;</span><br><span class="line"><span class="function"><span class="keyword">function</span> <span class="title">createXmlHttpRequest</span><span class="params">()</span></span></span></span><span class="expression">&#123;    </span><br><span class="line">    <span class="variable"><span class="keyword">if</span></span>(<span class="variable">window.ActiveXObject</span>)&#123;</span><br><span class="line">        <span class="variable">return</span> <span class="variable">new</span> <span class="variable">ActiveXObject</span>(<span class="string">"Microsoft.XMLHTTP"</span>);    </span><br><span class="line">    &#125;</span><span class="xml"><span class="stylus"><span class="keyword">else</span> <span class="function"><span class="title">if</span><span class="params">(window.XMLHttpRequest)</span></span></span></span><span class="expression">&#123;</span><br><span class="line">        <span class="variable">return</span> <span class="variable">new</span> <span class="variable">XMLHttpRequest</span>();    </span><br><span class="line">    &#125;</span><span class="xml"><span class="markdown"><span class="code">    </span></span><br><span class="line">&#125;    </span><br><span class="line"></span><br><span class="line">var url = "http://api.duoshuo.com/users/import.json";</span><br><span class="line">var data = "short<span class="emphasis">_name=***&amp;secret=*********************************&amp;users[0][user_</span>key]=1&amp;users[<span class="link_label">0</span>][<span class="link_reference">name</span>]=<span class="strong">***&amp;users[0][email]=**</span><span class="emphasis">*@*</span><span class="strong">**.**</span>*" </span><br><span class="line">//short<span class="emphasis">_name为站点申请的多说二级域名；secret为多说后台设置中显示的站点密钥；user[0][user_</span>key]为导入的用户在当前站点的ID；users[<span class="link_label">0</span>][<span class="link_reference">name</span>]为导入用户的显示名，users[<span class="link_label">0</span>][<span class="link_reference">email</span>]为接收提醒的邮箱地址。</span><br><span class="line"></span><br><span class="line">xmlHttpRequest = createXmlHttpRequest();</span><br><span class="line">xmlHttpRequest.open("POST",url,true);</span><br><span class="line">xmlHttpRequest.onreadystatechange = callback;    </span><br><span class="line">xmlHttpRequest.setRequestHeader("Content-Length",data.length);  </span><br><span class="line"></span><br><span class="line">xmlHttpRequest.setRequestHeader("Content-Type",</span><br><span class="line"><span class="code">            "application/x-www-form-urlencoded;");        </span></span><br><span class="line"><span class="code">    </span></span><br><span class="line">xmlHttpRequest.send(data);      </span><br><span class="line"></span><br><span class="line">function callback()</span></span><span class="expression">&#123;    </span><br><span class="line">    <span class="variable"><span class="keyword">if</span></span>(<span class="variable">xmlHttpRequest.readyState</span> == 4)&#123;<span class="variable"><span class="keyword">if</span></span>(<span class="variable">xmlHttpRequest.status</span> == 200)&#123;    </span><br><span class="line">        <span class="variable">alert</span>(<span class="variable">xmlHttpRequest.responseText</span>);</span><br><span class="line">          &#125;</span><span class="xml"><span class="undefined"></span><br><span class="line">      &#125;</span><br><span class="line">&#125;</span><br><span class="line"></span><br><span class="line"></span><span class="tag">&lt;/<span class="title">script</span>&gt;</span></span><br><span class="line"><span class="tag">&lt;/<span class="title">body</span>&gt;</span></span><br><span class="line"><span class="tag">&lt;/<span class="title">html</span>&gt;</span></span></span><br></pre></td></tr></table></figure>
+<p>将其中的相关参数修改成自己站点对应的以后，保存为.html格式的文件，直接用浏览器打开执行，如果弹出的提示框中的返回信息包含“code”:0，说明执行正确，用户导入成功。这时多说的后台用户应该显示出导入的用户，如下图所示（其中第二个用户为通过POST请求导入的用户）：</p>
 <p><img src="//dn-haomwei.qbox.me/images/04FD2702-3AB8-4680-83D1-64DF87475E72.png" alt="多说后台用户"></p>
 <p>最后，在主题中调用多说评论框代码的地方加上data-author-key=”1”这一项，例如：</p>
-<pre><code>    &lt;div class=&quot;ds-thread&quot; data-thread-key=&quot;&lt;%- page.path %&gt;&quot; data-title=&quot;&lt;%- page.title %&gt;&quot; data-url=&quot;&lt;%- page.permalink %&gt;&quot; data-author-key=&quot;1&quot;&gt;
-</code></pre><p>其实这里的data-author-key的值只要跟刚才导入用户时输入的users[0][user_key]的值保持一致即可。这样一来，我们在Hexo发布的文章都会具备author-key=”1”的属性，从而能与多说后台user_key为1的用户对应上，由该作者发表的文章被评论时，多说便会知道，从而进行邮件通知。</p>
+<figure class="highlight nix"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">&lt;div <span class="variable">class=</span><span class="string">"ds-thread"</span> <span class="variable">data-thread-key=</span><span class="string">"&lt;%- page.path %&gt;"</span> <span class="variable">data-title=</span><span class="string">"&lt;%- page.title %&gt;"</span> <span class="variable">data-url=</span><span class="string">"&lt;%- page.permalink %&gt;"</span> <span class="variable">data-author-key=</span><span class="string">"1"</span>&gt;</span><br></pre></td></tr></table></figure>
+<p>其实这里的data-author-key的值只要跟刚才导入用户时输入的users[0][user_key]的值保持一致即可。这样一来，我们在Hexo发布的文章都会具备author-key=”1”的属性，从而能与多说后台user_key为1的用户对应上，由该作者发表的文章被评论时，多说便会知道，从而进行邮件通知。</p>
 <p>但是，目前还无法实现文章被评论后实时收到邮件通知，邮件通知的频率是每天一封。这是由多说的系统设置决定的（已得到多说技术人员确认），用户暂时无法更改。每天凌晨会有一封邮件发送到邮箱，列出今日收到的评论，大概样子是这样的：</p>
 <p><img src="//dn-haomwei.qbox.me/images/1ECF4A9B-F1AE-47B6-AE07-9AD6084EB6CB.png" alt="多说邮件通知"></p>
 ]]></content>
@@ -1053,55 +981,22 @@ $ npm install
     <link href="https://www.haomwei.com/technology/fork-me-on-github.html"/>
     <id>https://www.haomwei.com/technology/fork-me-on-github.html</id>
     <published>2015-01-22T16:00:00.000Z</published>
-    <updated>2015-07-07T06:09:25.000Z</updated>
+    <updated>2015-10-26T06:11:20.000Z</updated>
     <content type="html"><![CDATA[<p>今天发现很多人的博客左上角或者右上角都有一个“Fork me on GitHub”的丝带，感觉还挺好看的，对于一些在GitHub比较活跃的程序员朋友来说，简直是装逼利器——虽然我不是程序员，但我也爱装逼。于是google了一下，大部分人都是从<a href="https://github.com/blog/273-github-ribbons" target="_blank" rel="external">GitHub Blog</a>中得到的方法，只需要在网页头部添加一段代码即可，简便易行。</p>
 <p>然而，这种直接调用一个图片的方法会增加网页加载时的请求数，图片的大小大约是8KB；而且，要是不够高清的图片在一个高分辨率的设备上显示效果也得不到保证。</p>
 <p>于是发现国外的一个人给出了直接用div+css的方法来自己创造一个长得一样的图标，学习总结了一下以后，在此将他用的方法简单粗暴地转载过来，省略了一些知识介绍和中间过程。（<a href="https://unindented.org/articles/github-ribbon-using-css-transforms/" target="_blank" rel="external">原文链接在此</a>）</p>
 <p>首先在需要丝带出现的地方添加如下代码，对于Hexo程序，可以直接在主题目录的/layout/_partial下创建一个ribbon.ejs然后输入进去。</p>
-<pre><code>   &lt;div class=&quot;ribbon&quot;&gt;
-   &lt;a href=&quot;https://github.com/your username&quot;&gt;Fork me on GitHub&lt;/a&gt;
-   &lt;/div&gt;
-</code></pre><p>接着要在/layout/_partial/after_footer.ejs中加入一行：</p>
-<pre><code>&lt;%- partial(&#39;ribbon&#39;) %&gt;
-</code></pre><p>确保这个div块将来能在我们的网页中出现。</p>
+<figure class="highlight applescript"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br></pre></td><td class="code"><pre><span class="line">&lt;<span class="keyword">div</span> <span class="type">class</span>=<span class="string">"ribbon"</span>&gt;</span><br><span class="line">&lt;a href=<span class="string">"https://github.com/your username"</span>&gt;Fork <span class="keyword">me</span> <span class="function_start"><span class="keyword">on</span></span> GitHub&lt;/a&gt;</span><br><span class="line">&lt;/<span class="keyword">div</span>&gt;</span><br></pre></td></tr></table></figure>
+<p>接着要在/layout/_partial/after_footer.ejs中加入一行：</p>
+<figure class="highlight gcode"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">&lt;<span class="preprocessor">%</span>- partial<span class="comment">('ribbon')</span> <span class="preprocessor">%</span>&gt;</span><br></pre></td></tr></table></figure>
+<p>确保这个div块将来能在我们的网页中出现。</p>
 <p>然后就是添加CSS了，hexo可以在主题目录的/source/css/_partial下创建一个ribbon.styl，然后把下面的代码复制进去。</p>
-<pre><code>.ribbon {
-  background-color: #a00;
-  overflow: hidden;
-  white-space: nowrap;
-  /* top left corner */
-  position: absolute;
-  left: -50px;
-  top: 40px;
-  /* 45 deg ccw rotation */如果想出现在左上角可以把下面的45设为正值
-  -webkit-transform: rotate(-45deg);
-     -moz-transform: rotate(-45deg);
-      -ms-transform: rotate(-45deg);
-       -o-transform: rotate(-45deg);
-          transform: rotate(-45deg);
-  /* shadow */
-  -webkit-box-shadow: 0 0 10px #888;
-     -moz-box-shadow: 0 0 10px #888;
-          box-shadow: 0 0 10px #888;
-}
-.ribbon a {
-  border: 1px solid #faa;
-  color: #fff;
-  display: block;
-  font: bold 81.25% &#39;Helvetica Neue&#39;, Helvetica, Arial, sans-serif;
-  margin: 1px 0;
-  padding: 10px 50px;
-  text-align: center;
-  text-decoration: none;
-  /* shadow */
-  text-shadow: 0 0 5px #444;
-}
-</code></pre><p>如果想要丝带悬浮在顶部，可以把上面一段中position的属性设置为：</p>
-<pre><code>position: fixed;
-</code></pre><p>复制进去后别忘了在style.styl的最后添加一行（针对Hexo博客用户）：</p>
-<pre><code>if ribbon
-@import &#39;_partial/ribbon&#39;
-</code></pre><p>这样基本就完工了，最终的效果可以参见本站。</p>
+<figure class="highlight scss"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br><span class="line">8</span><br><span class="line">9</span><br><span class="line">10</span><br><span class="line">11</span><br><span class="line">12</span><br><span class="line">13</span><br><span class="line">14</span><br><span class="line">15</span><br><span class="line">16</span><br><span class="line">17</span><br><span class="line">18</span><br><span class="line">19</span><br><span class="line">20</span><br><span class="line">21</span><br><span class="line">22</span><br><span class="line">23</span><br><span class="line">24</span><br><span class="line">25</span><br><span class="line">26</span><br><span class="line">27</span><br><span class="line">28</span><br><span class="line">29</span><br><span class="line">30</span><br><span class="line">31</span><br></pre></td><td class="code"><pre><span class="line"><span class="class">.ribbon</span> &#123;</span><br><span class="line">  <span class="attribute">background-color</span><span class="value">: <span class="hexcolor">#a00</span>;</span></span><br><span class="line">  <span class="attribute">overflow</span><span class="value">: hidden;</span></span><br><span class="line">  <span class="attribute">white-space</span><span class="value">: nowrap;</span></span><br><span class="line">  <span class="comment">/* top left corner */</span></span><br><span class="line">  <span class="attribute">position</span><span class="value">: absolute;</span></span><br><span class="line">  <span class="attribute">left</span><span class="value">: -<span class="number">50px</span>;</span></span><br><span class="line">  <span class="attribute">top</span><span class="value">: <span class="number">40px</span>;</span></span><br><span class="line">  <span class="comment">/* 45 deg ccw rotation */</span>如果想出现在左上角可以把下面的45设为正值</span><br><span class="line">  -webkit-<span class="attribute">transform</span><span class="value">: <span class="function">rotate</span>(-<span class="number">45deg</span>);</span></span><br><span class="line">     -moz-<span class="attribute">transform</span><span class="value">: <span class="function">rotate</span>(-<span class="number">45deg</span>);</span></span><br><span class="line">      -ms-<span class="attribute">transform</span><span class="value">: <span class="function">rotate</span>(-<span class="number">45deg</span>);</span></span><br><span class="line">       -o-<span class="attribute">transform</span><span class="value">: <span class="function">rotate</span>(-<span class="number">45deg</span>);</span></span><br><span class="line">          <span class="attribute">transform</span><span class="value">: <span class="function">rotate</span>(-<span class="number">45deg</span>);</span></span><br><span class="line">  <span class="comment">/* shadow */</span></span><br><span class="line">  -webkit-<span class="attribute">box-shadow</span><span class="value">: <span class="number">0</span> <span class="number">0</span> <span class="number">10px</span> <span class="hexcolor">#888</span>;</span></span><br><span class="line">     -moz-<span class="attribute">box-shadow</span><span class="value">: <span class="number">0</span> <span class="number">0</span> <span class="number">10px</span> <span class="hexcolor">#888</span>;</span></span><br><span class="line">          <span class="attribute">box-shadow</span><span class="value">: <span class="number">0</span> <span class="number">0</span> <span class="number">10px</span> <span class="hexcolor">#888</span>;</span></span><br><span class="line">&#125;</span><br><span class="line"><span class="class">.ribbon</span> <span class="tag">a</span> &#123;</span><br><span class="line">  <span class="attribute">border</span><span class="value">: <span class="number">1px</span> solid <span class="hexcolor">#faa</span>;</span></span><br><span class="line">  <span class="attribute">color</span><span class="value">: <span class="hexcolor">#fff</span>;</span></span><br><span class="line">  <span class="attribute">display</span><span class="value">: block;</span></span><br><span class="line">  <span class="attribute">font</span><span class="value">: bold <span class="number">81.25%</span> <span class="string">'Helvetica Neue'</span>, Helvetica, Arial, sans-serif;</span></span><br><span class="line">  <span class="attribute">margin</span><span class="value">: <span class="number">1px</span> <span class="number">0</span>;</span></span><br><span class="line">  <span class="attribute">padding</span><span class="value">: <span class="number">10px</span> <span class="number">50px</span>;</span></span><br><span class="line">  <span class="attribute">text-align</span><span class="value">: center;</span></span><br><span class="line">  <span class="attribute">text-decoration</span><span class="value">: none;</span></span><br><span class="line">  <span class="comment">/* shadow */</span></span><br><span class="line">  <span class="attribute">text-shadow</span><span class="value">: <span class="number">0</span> <span class="number">0</span> <span class="number">5px</span> <span class="hexcolor">#444</span>;</span></span><br><span class="line">&#125;</span><br></pre></td></tr></table></figure>
+<p>如果想要丝带悬浮在顶部，可以把上面一段中position的属性设置为：</p>
+<figure class="highlight css"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line"><span class="rule"><span class="attribute">position</span>:<span class="value"> fixed</span></span>;</span><br></pre></td></tr></table></figure>
+<p>复制进去后别忘了在style.styl的最后添加一行（针对Hexo博客用户）：</p>
+<figure class="highlight aspectj"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br></pre></td><td class="code"><pre><span class="line"><span class="keyword">if</span> ribbon</span><br><span class="line">	<span class="annotation">@import</span> <span class="string">'_partial/ribbon'</span></span><br></pre></td></tr></table></figure>
+<p>这样基本就完工了，最终的效果可以参见本站。</p>
 ]]></content>
     <summary type="html">
     <![CDATA[<p>今天发现很多人的博客左上角或者右上角都有一个“Fork me on GitHub”的丝带，感觉还挺好看的，对于一些在GitHub比较活跃的程序员朋友来说，简直是装逼利器——虽然我不是程序员，但我也爱装逼。于是google了一下，大部分人都是从<a href="https:/]]>
@@ -1379,7 +1274,7 @@ $ npm install
 <blockquote>
 <p>Do it well when you say goodbye to someone, because at that moment,what you say could be your final words, and what you see could never be seen again.</p>
 </blockquote>
-<pre><code>                                                                  ————Quotes in 《The Continent》
+<pre><code>————Quotes <span class="keyword">in</span> 《The Continent》
 </code></pre><p>从6月30日离开北京，在随州呆了一个多月，紧接着去泰国游玩了大约一个星期。尽管中间回去过一次，但时间短暂到甚至让我差点儿忘记了还有这么回事。等到过几天再次踏上帝都的地界时，按照之前健忘的算法，这一别几乎有两个月了，着实难得。</p>
 <p>但我想在这里写的，跟北京没有一丁点关系——对于这座都市，已经熟悉到有点厌倦了。我想分别说说两个完全没有联系的地方：随州和普吉。</p>
 <h3 id="A-随州记忆">A.随州记忆</h3><p>2014年7月1日，我第一次踏上这片陌生的土地，被称作“炎帝神农故里，编钟古乐之乡”的地方。而一个月后，那种陌生的感觉早已消失，取而代之的，是对身边人们的熟悉，和对那种简单生活方式的习惯。说实话，以前真的没有听说过随州这个地名，当然更不知道它坐落在哪个位置，但就这样稀里糊涂地来到了这里，也许这就叫做缘分。中国有太多规模差不多的小城市，它们历史悠久，但并不广为人知；它们低调朴实，但同样欣欣向荣，生活在其中的人们也同样深爱自己的家园。</p>

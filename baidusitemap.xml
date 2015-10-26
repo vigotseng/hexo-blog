@@ -2,6 +2,38 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
 
     
+  <url>
+    <loc>https://www.haomwei.com/technology/fork-me-on-github.html</loc>
+    <lastmod>2015-10-26T06:11:20.000Z</lastmod>
+    <data>
+        <display>
+        <title>为你的博客加上"Fork me on GitHub"丝带</title>
+        <pubTime>2015-01-22T16:00:00.000Z</pubTime>
+        
+        <tag>GitHub </tag>
+         
+        <tag>Hexo </tag>
+         
+        <tag>Internet </tag>
+         
+        <tag>Typecho </tag>
+         
+        <tag>Wordpress </tag>
+         
+        <tag>博客 </tag>
+         
+        <tag>技术 </tag>
+         
+         
+           
+             
+              <breadCrumb title="technology" url="https://www.haomwei.com/categories/technology/"/>
+          
+        </display>
+    </data>
+    </url>
+
+    
     
     
   <url>
@@ -824,38 +856,6 @@
         <tag>Wordpress </tag>
          
         <tag>主机 </tag>
-         
-        <tag>博客 </tag>
-         
-        <tag>技术 </tag>
-         
-         
-           
-             
-              <breadCrumb title="technology" url="https://www.haomwei.com/categories/technology/"/>
-          
-        </display>
-    </data>
-    </url>
-
-    
-  <url>
-    <loc>https://www.haomwei.com/technology/fork-me-on-github.html</loc>
-    <lastmod>2015-07-07T06:09:25.000Z</lastmod>
-    <data>
-        <display>
-        <title>为你的博客加上"Fork me on GitHub"丝带</title>
-        <pubTime>2015-01-22T16:00:00.000Z</pubTime>
-        
-        <tag>GitHub </tag>
-         
-        <tag>Hexo </tag>
-         
-        <tag>Internet </tag>
-         
-        <tag>Typecho </tag>
-         
-        <tag>Wordpress </tag>
          
         <tag>博客 </tag>
          
