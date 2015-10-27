@@ -710,6 +710,7 @@ pre .function, pre .python .decorator, pre .python .title, pre .ruby .function .
 pre .keyword, pre .javascript .function {
   color: #c9c; }
 
+/* IcoMoon*/
 @font-face {
   font-family: 'icomoon';
   src: url('/fonts/icomoon.eot?hylqsr');
