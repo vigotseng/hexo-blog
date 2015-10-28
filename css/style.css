@@ -721,7 +721,7 @@ pre .keyword, pre .javascript .function {
   font-style: normal; }
 
 i {
-  font-family: 'icomoon', "TIBch", "Classic Grotesque W01", "Helvetica Neue", Arial, "Hiragino Sans GB", "STHeiti", "Microsoft YaHei", "WenQuanYi Micro Hei", SimSun, sans-serif;
+  font-family: 'icomoon';
   speak: none;
   font-style: normal;
   font-weight: normal;
@@ -766,6 +766,7 @@ i {
   .post-nav a {
     display: inline-block;
     line-height: 25px;
+    font-family: "TIBch", "Classic Grotesque W01", "Helvetica Neue", Arial, "Hiragino Sans GB", "STHeiti", "Microsoft YaHei", "WenQuanYi Micro Hei", SimSun, sans-serif;
     font-size: 15px;
     color: #555;
     border-bottom: none;
