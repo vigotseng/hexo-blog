@@ -721,7 +721,7 @@ pre .keyword, pre .javascript .function {
   font-style: normal; }
 
 i {
-  font-family: 'icomoon';
+  font-family: 'icomoon', "TIBch", "Classic Grotesque W01", "Helvetica Neue", Arial, "Hiragino Sans GB", "STHeiti", "Microsoft YaHei", "WenQuanYi Micro Hei", SimSun, sans-serif;
   speak: none;
   font-style: normal;
   font-weight: normal;
