@@ -318,7 +318,6 @@ blockquote:before, .stressed-quote:before {
 
 strong, b, em {
   padding: 1px 2px;
-  background-color: #fcfcf0;
   font-weight: normal; }
 
 pre {
@@ -778,3 +777,24 @@ i {
     .post-nav a:hover {
       border-bottom: none;
       color: #222; }
+
+/*toc*/
+.toc-article {
+  border: 1px solid #bbb;
+  border-radius: 7px;
+  margin: 3.5em -4em 0 0;
+  padding: 0.2em;
+  max-width: 40%; }
+
+#toc {
+  line-height: 1em;
+  float: right; }
+  #toc .toc {
+    padding: 0;
+    margin: 0.5em;
+    line-height: 1.8em; }
+    #toc .toc li {
+      list-style-type: none; }
+  #toc .toc-child {
+    margin-left: 1em;
+    padding-left: 0; }
