@@ -163,13 +163,19 @@ a:focus {
     float: right;
     display: inline;
     text-indent: .15em; }
-  .post .post-content {
+  .post .post-abstract {
     clear: both;
     font-size: 15px;
     line-height: 1.77;
     color: #444;
     padding-top: 20px;
     overflow: hidden; }
+  .post .post-content {
+    clear: left;
+    font-size: 15px;
+    line-height: 1.77;
+    color: #444;
+    padding-top: 20px; }
     .post .post-content h2, .post .post-content h3 {
       margin: 1.4em 0 1.1em; }
     .post .post-content pre code {
@@ -782,7 +788,7 @@ i {
 .toc-article {
   border: 1px solid #bbb;
   border-radius: 7px;
-  margin: 3.5em -4em 0 0;
+  margin: 2em 0 0 0.6em;
   padding: 0.2em;
   max-width: 40%; }
 

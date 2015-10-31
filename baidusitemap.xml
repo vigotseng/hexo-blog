@@ -4,37 +4,8 @@
 
     
   <url>
-    <loc>https://www.haomwei.com/technology/how-to-install-hexo-on-mac.html</loc>
-    <lastmod>2015-10-30T12:52:01.000Z</lastmod>
-    <data>
-        <display>
-        <title>Mac安装Hexo 3.X教程</title>
-        <pubTime>2015-04-14T16:00:00.000Z</pubTime>
-        
-        <tag>GitHub</tag>
-         
-        <tag>Hexo</tag>
-         
-        <tag>Internet</tag>
-         
-        <tag>博客</tag>
-         
-        <tag>技术</tag>
-         
-         
-           
-             
-              <breadCrumb title="technology" url="https://www.haomwei.com/categories/technology/"/>
-          
-        </display>
-    </data>
-    </url>
-
-    
-    
-  <url>
     <loc>https://www.haomwei.com/technology/fork-me-on-github.html</loc>
-    <lastmod>2015-10-26T06:11:20.000Z</lastmod>
+    <lastmod>2015-10-31T03:41:10.000Z</lastmod>
     <data>
         <display>
         <title>为你的博客加上"Fork me on GitHub"丝带</title>
@@ -63,6 +34,35 @@
     </data>
     </url>
 
+    
+  <url>
+    <loc>https://www.haomwei.com/technology/how-to-install-hexo-on-mac.html</loc>
+    <lastmod>2015-10-30T12:52:01.000Z</lastmod>
+    <data>
+        <display>
+        <title>Mac安装Hexo 3.X教程</title>
+        <pubTime>2015-04-14T16:00:00.000Z</pubTime>
+        
+        <tag>GitHub</tag>
+         
+        <tag>Hexo</tag>
+         
+        <tag>Internet</tag>
+         
+        <tag>博客</tag>
+         
+        <tag>技术</tag>
+         
+         
+           
+             
+              <breadCrumb title="technology" url="https://www.haomwei.com/categories/technology/"/>
+          
+        </display>
+    </data>
+    </url>
+
+    
     
     
     
