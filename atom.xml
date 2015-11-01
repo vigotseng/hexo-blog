@@ -4,7 +4,7 @@
   <subtitle><![CDATA[屠夫9441的博客]]></subtitle>
   <link href="/atom.xml" rel="self"/>
   <link href="https://www.haomwei.com/"/>
-  <updated>2015-11-01T09:56:42.000Z</updated>
+  <updated>2015-11-01T10:04:10.000Z</updated>
   <id>https://www.haomwei.com/</id>
   
   <author>
@@ -19,7 +19,7 @@
     <link href="https://www.haomwei.com/technology/maupassant-hexo.html"/>
     <id>https://www.haomwei.com/technology/maupassant-hexo.html</id>
     <published>2015-10-31T16:00:00.000Z</published>
-    <updated>2015-11-01T09:56:42.000Z</updated>
+    <updated>2015-11-01T10:04:10.000Z</updated>
     <content type="html"><![CDATA[<p>Maupassant&#x6700;&#x521D;&#x662F;&#x7531;<a href="https://github.com/pagecho/" target="_blank" rel="external">Cho</a>&#x5927;&#x795E;&#x4E3A;<a href="http://typecho.org" target="_blank" rel="external">Typecho</a>&#x5E73;&#x53F0;&#x8BBE;&#x8BA1;&#x5F00;&#x53D1;&#x7684;&#x4E00;&#x5957;&#x54CD;&#x5E94;&#x5F0F;&#x6A21;&#x677F;&#xFF0C;&#x4F53;&#x79EF;&#x53EA;&#x6709;20KB&#xFF0C;&#x5728;&#x5404;&#x79CD;&#x5C3A;&#x5BF8;&#x7684;&#x8BBE;&#x5907;&#x4E0A;&#x8868;&#x73B0;&#x51FA;&#x8272;&#x3002;&#x7531;&#x4E8E;&#x5176;&#x7B80;&#x6D01;&#x5927;&#x6C14;&#x7684;&#x98CE;&#x683C;&#x53D7;&#x5230;&#x8BB8;&#x591A;&#x7528;&#x6237;&#x559C;&#x7231;&#xFF0C;&#x76EE;&#x524D;&#x4E5F;&#x5DF2;&#x7ECF;&#x88AB;&#x79FB;&#x690D;&#x5230;&#x4E86;&#x591A;&#x4E2A;&#x5E73;&#x53F0;&#x4E0A;&#xFF0C;&#x4F8B;&#x5982;&#xFF1A;</p>
 <ul>
 <li>Typecho&#xFF1A;<a href="https://github.com/pagecho/maupassant/" target="_blank" rel="external">https://github.com/pagecho/maupassant/</a></li>
@@ -33,14 +33,14 @@
 <p>&#x6211;&#x5DF2;&#x7ECF;&#x5C06;&#x4FEE;&#x6539;&#x540E;&#x7684;&#x4EE3;&#x7801;&#x53D1;&#x5E03;&#x5728;Github&#x4E0A;&#xFF0C;&#x6709;&#x5174;&#x8DA3;&#x7684;&#x670B;&#x53CB;&#x53EF;&#x4EE5;&#x4E0B;&#x8F7D;&#x8BD5;&#x7528;&#xFF0C;&#x5E76;&#x6B22;&#x8FCE;&#x53CD;&#x9988;&#x95EE;&#x9898;&#xFF1A;</p>
 <p><a href="https://github.com/tufu9441/maupassant-hexo/" target="_blank" rel="external">https://github.com/tufu9441/maupassant-hexo/</a></p>
 <p><img src="//dn-haomwei.qbox.me/images/maupassant.jpg" alt="&#x4E3B;&#x9898;&#x6548;&#x679C;"></p>
-<h2 id="&#x5B89;&#x88C5;">&#x5B89;&#x88C5;</h2><ul>
+<h2 id="&#x4E3B;&#x9898;&#x5B89;&#x88C5;">&#x4E3B;&#x9898;&#x5B89;&#x88C5;</h2><ul>
 <li>&#x5B89;&#x88C5;&#x4E3B;&#x9898;&#x548C;&#x6E32;&#x67D3;&#x5668;&#xFF1A;</li>
 </ul>
 <figure class="highlight sql"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br></pre></td><td class="code"><pre><span class="line">git clone https://github.com/tufu9441/maupassant-hexo.git themes/maupassant</span><br><span class="line">npm <span class="operator"><span class="keyword">install</span> hexo-renderer-sass <span class="comment">--save</span></span><br><span class="line">npm <span class="keyword">install</span> hexo-renderer-jade <span class="comment">--save</span></span></span><br></pre></td></tr></table></figure>
 <ul>
-<li>&#x7F16;&#x8F91;Hexo&#x76EE;&#x5F55;&#x4E0B;&#x7684; <code>_config.yml</code>&#xFF0C;&#x5C06;<code>theme</code>&#x7684;&#x503C;&#x6539;&#x4E3A;<code>maupassant</code>.</li>
+<li>&#x7F16;&#x8F91;Hexo&#x76EE;&#x5F55;&#x4E0B;&#x7684; <code>_config.yml</code>&#xFF0C;&#x5C06;<code>theme</code>&#x7684;&#x503C;&#x6539;&#x4E3A;<code>maupassant</code>&#x3002;</li>
 </ul>
-<h2 id="&#x914D;&#x7F6E;">&#x914D;&#x7F6E;</h2><h3 id="&#x7F51;&#x7AD9;&#x56FE;&#x6807;">&#x7F51;&#x7AD9;&#x56FE;&#x6807;</h3><ul>
+<h2 id="&#x529F;&#x80FD;&#x914D;&#x7F6E;">&#x529F;&#x80FD;&#x914D;&#x7F6E;</h2><h3 id="&#x7F51;&#x7AD9;&#x56FE;&#x6807;">&#x7F51;&#x7AD9;&#x56FE;&#x6807;</h3><ul>
 <li><p>&#x82E5;&#x8981;&#x8BBE;&#x7F6E;&#x7F51;&#x7AD9;Favicon&#xFF0C;&#x53EF;&#x4EE5;&#x5C06;<strong>favicon.ico</strong>&#x653E;&#x5728;Hexo&#x6839;&#x76EE;&#x5F55;&#x7684;<code>source</code>&#x6587;&#x4EF6;&#x5939;&#x4E0B;&#xFF0C;&#x5EFA;&#x8BAE;&#x7684;&#x5927;&#x5C0F;&#xFF1A;32px*32px&#x3002;</p>
 </li>
 <li><p>&#x82E5;&#x8981;&#x4E3A;&#x7F51;&#x7AD9;&#x6DFB;&#x52A0;&#x82F9;&#x679C;&#x8BBE;&#x5907;&#x56FE;&#x6807;&#xFF0C;&#x8BF7;&#x5C06;&#x547D;&#x540D;&#x4E3A;<strong>apple-touch-icon.png</strong>&#x7684;&#x56FE;&#x7247;&#x653E;&#x5728;&#x540C;&#x6837;&#x7684;&#x4F4D;&#x7F6E;&#xFF0C;&#x5EFA;&#x8BAE;&#x7684;&#x5927;&#x5C0F;&#xFF1A;114px*114px&#x3002;</p>
