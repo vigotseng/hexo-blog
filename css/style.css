@@ -161,13 +161,6 @@ a:focus {
     float: right;
     display: inline;
     text-indent: .15em; }
-  .post .post-abstract {
-    clear: both;
-    font-size: 15px;
-    line-height: 1.77;
-    color: #444;
-    padding-top: 20px;
-    overflow: hidden; }
   .post .post-content {
     clear: left;
     font-size: 15px;
