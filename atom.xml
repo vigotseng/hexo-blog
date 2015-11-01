@@ -4,7 +4,7 @@
   <subtitle><![CDATA[屠夫9441的博客]]></subtitle>
   <link href="/atom.xml" rel="self"/>
   <link href="https://www.haomwei.com/"/>
-  <updated>2015-11-01T09:11:15.000Z</updated>
+  <updated>2015-11-01T09:17:44.000Z</updated>
   <id>https://www.haomwei.com/</id>
   
   <author>
@@ -19,8 +19,8 @@
     <link href="https://www.haomwei.com/technology/maupassant-hexo.html"/>
     <id>https://www.haomwei.com/technology/maupassant-hexo.html</id>
     <published>2015-10-31T16:00:00.000Z</published>
-    <updated>2015-11-01T09:11:15.000Z</updated>
-    <content type="html"><![CDATA[<h2 id="&#x7B80;&#x4ECB;">&#x7B80;&#x4ECB;</h2><p>Maupassant&#x6700;&#x521D;&#x662F;&#x7531;<a href="https://github.com/pagecho/" target="_blank" rel="external">Cho</a>&#x5927;&#x795E;&#x4E3A;<a href="http://typecho.org" target="_blank" rel="external">Typecho</a>&#x5E73;&#x53F0;&#x8BBE;&#x8BA1;&#x5F00;&#x53D1;&#x7684;&#x4E00;&#x5957;&#x54CD;&#x5E94;&#x5F0F;&#x6A21;&#x677F;&#xFF0C;&#x7531;&#x4E8E;&#x5176;&#x7B80;&#x6D01;&#x5927;&#x6C14;&#x7684;&#x98CE;&#x683C;&#x53D7;&#x5230;&#x8BB8;&#x591A;&#x7528;&#x6237;&#x559C;&#x7231;&#xFF0C;&#x76EE;&#x524D;&#x4E5F;&#x5DF2;&#x7ECF;&#x88AB;&#x79FB;&#x690D;&#x5230;&#x4E86;&#x591A;&#x4E2A;&#x5E73;&#x53F0;&#x4E0A;&#xFF0C;&#x4F8B;&#x5982;&#xFF1A;</p>
+    <updated>2015-11-01T09:17:44.000Z</updated>
+    <content type="html"><![CDATA[<p>Maupassant&#x6700;&#x521D;&#x662F;&#x7531;<a href="https://github.com/pagecho/" target="_blank" rel="external">Cho</a>&#x5927;&#x795E;&#x4E3A;<a href="http://typecho.org" target="_blank" rel="external">Typecho</a>&#x5E73;&#x53F0;&#x8BBE;&#x8BA1;&#x5F00;&#x53D1;&#x7684;&#x4E00;&#x5957;&#x54CD;&#x5E94;&#x5F0F;&#x6A21;&#x677F;&#xFF0C;&#x7531;&#x4E8E;&#x5176;&#x7B80;&#x6D01;&#x5927;&#x6C14;&#x7684;&#x98CE;&#x683C;&#x53D7;&#x5230;&#x8BB8;&#x591A;&#x7528;&#x6237;&#x559C;&#x7231;&#xFF0C;&#x76EE;&#x524D;&#x4E5F;&#x5DF2;&#x7ECF;&#x88AB;&#x79FB;&#x690D;&#x5230;&#x4E86;&#x591A;&#x4E2A;&#x5E73;&#x53F0;&#x4E0A;&#xFF0C;&#x4F8B;&#x5982;&#xFF1A;</p>
 <ul>
 <li>Typecho&#xFF1A;<a href="https://github.com/pagecho/maupassant/" target="_blank" rel="external">https://github.com/pagecho/maupassant/</a></li>
 <li>Octopress&#xFF1A;<a href="https://github.com/pagecho/mewpassant/" target="_blank" rel="external">https://github.com/pagecho/mewpassant/</a></li>
