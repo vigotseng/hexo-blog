@@ -4,7 +4,7 @@
   <subtitle><![CDATA[屠夫9441的博客]]></subtitle>
   <link href="/atom.xml" rel="self"/>
   <link href="https://www.haomwei.com/"/>
-  <updated>2015-11-01T09:17:44.000Z</updated>
+  <updated>2015-11-01T09:19:33.000Z</updated>
   <id>https://www.haomwei.com/</id>
   
   <author>
@@ -19,7 +19,7 @@
     <link href="https://www.haomwei.com/technology/maupassant-hexo.html"/>
     <id>https://www.haomwei.com/technology/maupassant-hexo.html</id>
     <published>2015-10-31T16:00:00.000Z</published>
-    <updated>2015-11-01T09:17:44.000Z</updated>
+    <updated>2015-11-01T09:19:33.000Z</updated>
     <content type="html"><![CDATA[<p>Maupassant&#x6700;&#x521D;&#x662F;&#x7531;<a href="https://github.com/pagecho/" target="_blank" rel="external">Cho</a>&#x5927;&#x795E;&#x4E3A;<a href="http://typecho.org" target="_blank" rel="external">Typecho</a>&#x5E73;&#x53F0;&#x8BBE;&#x8BA1;&#x5F00;&#x53D1;&#x7684;&#x4E00;&#x5957;&#x54CD;&#x5E94;&#x5F0F;&#x6A21;&#x677F;&#xFF0C;&#x7531;&#x4E8E;&#x5176;&#x7B80;&#x6D01;&#x5927;&#x6C14;&#x7684;&#x98CE;&#x683C;&#x53D7;&#x5230;&#x8BB8;&#x591A;&#x7528;&#x6237;&#x559C;&#x7231;&#xFF0C;&#x76EE;&#x524D;&#x4E5F;&#x5DF2;&#x7ECF;&#x88AB;&#x79FB;&#x690D;&#x5230;&#x4E86;&#x591A;&#x4E2A;&#x5E73;&#x53F0;&#x4E0A;&#xFF0C;&#x4F8B;&#x5982;&#xFF1A;</p>
 <ul>
 <li>Typecho&#xFF1A;<a href="https://github.com/pagecho/maupassant/" target="_blank" rel="external">https://github.com/pagecho/maupassant/</a></li>
@@ -69,8 +69,8 @@
 <li>&#x8981;&#x542F;&#x7528;&#x4EE3;&#x7801;&#x9AD8;&#x4EAE;&#xFF0C;&#x8BF7;&#x5728;Hexo&#x76EE;&#x5F55;&#x7684;<code>_config.yml</code>&#x4E2D;&#x5C06;<code>highlight</code>&#x9009;&#x9879;&#x6309;&#x7167;&#x5982;&#x4E0B;&#x8BBE;&#x7F6E;&#xFF1A;</li>
 </ul>
 <figure class="highlight less"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br></pre></td><td class="code"><pre><span class="line"><span class="attribute">highlight</span>:</span><br><span class="line">  <span class="attribute">enable</span>: true</span><br><span class="line">  <span class="attribute">auto_detect</span>: true</span><br><span class="line">  <span class="attribute">line_number</span>: true</span><br><span class="line">  <span class="attribute">tab_replace</span>:</span><br></pre></td></tr></table></figure>
-<h3 id="fancybox">Fancybox</h3><ul>
-<li>&#x5728;&#x4E3B;&#x9898;&#x76EE;&#x5F55;&#x7684;<code>_config.yml</code>&#x4E2D;&#x5C06;fancybox&#x9009;&#x9879;&#x8BBE;&#x5B9A;&#x4E3A;true&#x4EE5;&#x542F;&#x7528;fancybox&#xFF1A;</li>
+<h3 id="&#x56FE;&#x7247;&#x706F;&#x7BB1;">&#x56FE;&#x7247;&#x706F;&#x7BB1;</h3><ul>
+<li>&#x5728;&#x4E3B;&#x9898;&#x76EE;&#x5F55;&#x7684;<code>_config.yml</code>&#x4E2D;&#x5C06;fancybox&#x9009;&#x9879;&#x8BBE;&#x5B9A;&#x4E3A;true&#x4EE5;&#x542F;&#x7528;fancybox&#x706F;&#x7BB1;&#x6548;&#x679C;&#xFF1A;</li>
 </ul>
 <figure class="highlight http"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br></pre></td><td class="code"><pre><span class="line"><span class="attribute">fancybox</span>: <span class="string">true</span></span><br><span class="line"><span class="attribute">duoshuo</span>: <span class="string">#duoshuo_shortname</span></span><br><span class="line"><span class="attribute">disqus</span>: <span class="string">#disqus_shortname</span></span><br><span class="line"><span class="attribute">swiftype</span>: <span class="string">#swiftype_key</span></span><br><span class="line"><span class="attribute">tinysou</span>: <span class="string">#tinysou_key</span></span><br></pre></td></tr></table></figure>
 <h2 id="&#x95EE;&#x9898;&#x89E3;&#x51B3;">&#x95EE;&#x9898;&#x89E3;&#x51B3;</h2><ul>
