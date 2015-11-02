@@ -2,8 +2,13 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
   
   <url>
+    <loc>https://www.haomwei.com/technology/fork-me-on-github.html</loc>
+    <lastmod>2015-11-02T11:26:29.000Z</lastmod>
+  </url>
+  
+  <url>
     <loc>https://www.haomwei.com/technology/maupassant-hexo.html</loc>
-    <lastmod>2015-11-02T04:56:19.000Z</lastmod>
+    <lastmod>2015-11-02T11:26:16.000Z</lastmod>
   </url>
   
   <url>
@@ -119,11 +124,6 @@
   <url>
     <loc>https://www.haomwei.com/emotion/casual-words.html</loc>
     <lastmod>2015-11-01T11:26:02.000Z</lastmod>
-  </url>
-  
-  <url>
-    <loc>https://www.haomwei.com/technology/fork-me-on-github.html</loc>
-    <lastmod>2015-10-31T03:41:10.000Z</lastmod>
   </url>
   
   <url>
