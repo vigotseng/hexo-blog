@@ -18,4 +18,5 @@ Disallow: /*.png$
 Disallow: /*.bmp$
 Disallow: /atom.xml
 
-Sitemap: http://www.haomwei.com/sitemap.xml
+Sitemap: https://www.haomwei.com/sitemap.xml
+Sitemap: https://www.haomwei.com/baidusitemap.xml
