@@ -2,6 +2,11 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
   
   <url>
+    <loc>https://www.haomwei.com/emotion/twenty-six.html</loc>
+    <lastmod>2015-12-03T11:19:31.000Z</lastmod>
+  </url>
+  
+  <url>
     <loc>https://www.haomwei.com/technology/how-to-install-hexo-on-mac.html</loc>
     <lastmod>2015-12-03T04:34:10.000Z</lastmod>
   </url>
@@ -9,11 +14,6 @@
   <url>
     <loc>https://www.haomwei.com/technology/maupassant-hexo.html</loc>
     <lastmod>2015-11-26T04:31:53.000Z</lastmod>
-  </url>
-  
-  <url>
-    <loc>https://www.haomwei.com/emotion/twenty-six.html</loc>
-    <lastmod>2015-11-25T06:36:39.000Z</lastmod>
   </url>
   
   <url>

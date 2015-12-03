@@ -4,6 +4,30 @@
 
     
   <url>
+    <loc>https://www.haomwei.com/emotion/twenty-six.html</loc>
+    <lastmod>2015-12-03T11:19:31.000Z</lastmod>
+    <data>
+        <display>
+        <title>廿六</title>
+        <pubTime>2015-11-24T16:00:00.000Z</pubTime>
+        
+        <tag>心情</tag>
+         
+        <tag>随笔</tag>
+         
+        <tag>音乐</tag>
+         
+         
+           
+             
+              <breadCrumb title="emotion" url="https://www.haomwei.com/categories/emotion/"/>
+          
+        </display>
+    </data>
+    </url>
+
+    
+  <url>
     <loc>https://www.haomwei.com/technology/how-to-install-hexo-on-mac.html</loc>
     <lastmod>2015-12-03T04:34:10.000Z</lastmod>
     <data>
@@ -51,30 +75,6 @@
            
              
               <breadCrumb title="technology" url="https://www.haomwei.com/categories/technology/"/>
-          
-        </display>
-    </data>
-    </url>
-
-    
-  <url>
-    <loc>https://www.haomwei.com/emotion/twenty-six.html</loc>
-    <lastmod>2015-11-25T06:36:39.000Z</lastmod>
-    <data>
-        <display>
-        <title>廿六</title>
-        <pubTime>2015-11-24T16:00:00.000Z</pubTime>
-        
-        <tag>心情</tag>
-         
-        <tag>随笔</tag>
-         
-        <tag>音乐</tag>
-         
-         
-           
-             
-              <breadCrumb title="emotion" url="https://www.haomwei.com/categories/emotion/"/>
           
         </display>
     </data>
