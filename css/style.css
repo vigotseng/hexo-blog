@@ -644,9 +644,8 @@ pre {
     border: none;
     padding: 0; }
   .highlight figcaption {
-    clearfix: none;
     font-size: 0.85em;
-    color: highlight-comment;
+    color: #8e908c;
     line-height: 1em;
     margin-bottom: 1em; }
     .highlight figcaption a {
