@@ -203,7 +203,7 @@ a:focus {
         padding-bottom: 2px;
         word-break: break-all; }
         .post .post-content p a:hover {
-          border-bottom-color: #444; }
+          text-decoration: underline; }
       .post .post-content p .caption {
         color: #444;
         display: block;
@@ -230,6 +230,12 @@ a:focus {
         text-indent: .5em; }
       .post .post-content ul ul, .post .post-content ol ul {
         margin: 0; }
+      .post .post-content ul a, .post .post-content ol a {
+        color: #01579f;
+        padding-bottom: 2px;
+        word-break: break-all; }
+        .post .post-content ul a:hover, .post .post-content ol a:hover {
+          text-decoration: underline; }
     .post .post-content table {
       margin: 0; }
   .post .tags {
@@ -811,7 +817,8 @@ i {
 
 table {
   border: 1px solid #666;
-  border-collapse: collapse; }
+  border-collapse: collapse;
+  text-align: center; }
   table th, table tr, table td {
     border: 1px solid #666;
     padding: 7px; }
