@@ -645,7 +645,8 @@ pre {
   .highlight table {
     margin: 0;
     width: auto;
-    border: none; }
+    border: none;
+    text-align: left; }
   .highlight td {
     border: none;
     padding: 0; }

@@ -4,6 +4,32 @@
 
     
   <url>
+    <loc>https://www.haomwei.com/technology/maupassant-hexo.html</loc>
+    <lastmod>2015-12-06T09:02:36.000Z</lastmod>
+    <data>
+        <display>
+        <title>大道至简——Hexo简洁主题推荐</title>
+        <pubTime>2015-10-31T16:00:00.000Z</pubTime>
+        
+        <tag>Hexo</tag>
+         
+        <tag>Typecho</tag>
+         
+        <tag>博客</tag>
+         
+        <tag>技术</tag>
+         
+         
+           
+             
+              <breadCrumb title="technology" url="https://www.haomwei.com/categories/technology/"/>
+          
+        </display>
+    </data>
+    </url>
+
+    
+  <url>
     <loc>https://www.haomwei.com/emotion/twenty-six.html</loc>
     <lastmod>2015-12-06T08:40:10.000Z</lastmod>
     <data>
@@ -40,32 +66,6 @@
         <tag>Hexo</tag>
          
         <tag>Internet</tag>
-         
-        <tag>博客</tag>
-         
-        <tag>技术</tag>
-         
-         
-           
-             
-              <breadCrumb title="technology" url="https://www.haomwei.com/categories/technology/"/>
-          
-        </display>
-    </data>
-    </url>
-
-    
-  <url>
-    <loc>https://www.haomwei.com/technology/maupassant-hexo.html</loc>
-    <lastmod>2015-11-26T04:31:53.000Z</lastmod>
-    <data>
-        <display>
-        <title>大道至简——Hexo简洁主题推荐</title>
-        <pubTime>2015-10-31T16:00:00.000Z</pubTime>
-        
-        <tag>Hexo</tag>
-         
-        <tag>Typecho</tag>
          
         <tag>博客</tag>
          
