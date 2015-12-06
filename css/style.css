@@ -617,7 +617,7 @@ pre {
   padding: 15px;
   overflow: auto;
   font-size: 13px;
-  color: #4d4d4c;
+  color: #444;
   line-height: 1.6; }
   pre code {
     background: none;
@@ -630,7 +630,7 @@ pre {
   padding: 15px;
   overflow: auto;
   font-size: 13px;
-  color: #4d4d4c;
+  color: #444;
   line-height: 1.6; }
   .highlight pre {
     border: none;
@@ -643,6 +643,10 @@ pre {
   .highlight td {
     border: none;
     padding: 0; }
+  .highlight table tr:nth-child(odd) {
+    background-color: #2D2D2D; }
+  .highlight table tr {
+    border: #2D2D2D; }
   .highlight figcaption {
     font-size: 0.85em;
     color: #8e908c;
@@ -817,8 +821,3 @@ table {
     background-color: #FAFAFA; }
   table td:hover:not(.code):not(.gutter) {
     background-color: #E6FBFF; }
-
-.highlight table tr:nth-child(odd) {
-  background-color: #2D2D2D; }
-.highlight table tr {
-  border: #2D2D2D; }
