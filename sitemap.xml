@@ -2,13 +2,18 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
   
   <url>
-    <loc>https://www.haomwei.com/technology/maupassant-hexo.html</loc>
-    <lastmod>2015-12-06T09:02:36.000Z</lastmod>
+    <loc>https://www.haomwei.com/technology/fork-me-on-github.html</loc>
+    <lastmod>2015-12-10T04:11:47.000Z</lastmod>
   </url>
   
   <url>
     <loc>https://www.haomwei.com/emotion/twenty-six.html</loc>
-    <lastmod>2015-12-06T08:40:10.000Z</lastmod>
+    <lastmod>2015-12-10T03:58:18.000Z</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://www.haomwei.com/technology/maupassant-hexo.html</loc>
+    <lastmod>2015-12-06T09:09:52.000Z</lastmod>
   </url>
   
   <url>
@@ -34,11 +39,6 @@
   <url>
     <loc>https://www.haomwei.com/guestbook/index.html</loc>
     <lastmod>2015-11-03T01:59:19.000Z</lastmod>
-  </url>
-  
-  <url>
-    <loc>https://www.haomwei.com/technology/fork-me-on-github.html</loc>
-    <lastmod>2015-11-02T11:26:29.000Z</lastmod>
   </url>
   
   <url>
