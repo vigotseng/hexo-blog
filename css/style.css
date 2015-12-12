@@ -196,7 +196,7 @@ a:focus {
       .post .post-content p code {
         display: inline;
         margin: 0 5px;
-        padding: 2px 2px;
+        padding: 1px 5px;
         border: 1px solid #ccc;
         background: #eee; }
       .post .post-content p a {
