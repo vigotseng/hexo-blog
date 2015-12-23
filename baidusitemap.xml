@@ -5,7 +5,7 @@
     
   <url>
     <loc>https://www.haomwei.com/emotion/windy.html</loc>
-    <lastmod>2015-12-22T05:36:38.000Z</lastmod>
+    <lastmod>2015-12-23T04:55:23.000Z</lastmod>
     <data>
         <display>
         <title>如梦而行，如风而至</title>
@@ -21,6 +21,34 @@
            
              
               <breadCrumb title="emotion" url="https://www.haomwei.com/categories/emotion/"/>
+          
+        </display>
+    </data>
+    </url>
+
+    
+  <url>
+    <loc>https://www.haomwei.com/technology/how-to-install-hexo-on-mac.html</loc>
+    <lastmod>2015-12-23T04:55:18.000Z</lastmod>
+    <data>
+        <display>
+        <title>Mac安装Hexo 3.X教程</title>
+        <pubTime>2015-04-14T16:00:00.000Z</pubTime>
+        
+        <tag>GitHub</tag>
+         
+        <tag>Hexo</tag>
+         
+        <tag>Internet</tag>
+         
+        <tag>博客</tag>
+         
+        <tag>技术</tag>
+         
+         
+           
+             
+              <breadCrumb title="technology" url="https://www.haomwei.com/categories/technology/"/>
           
         </display>
     </data>
@@ -70,34 +98,6 @@
         <tag>Typecho</tag>
          
         <tag>Wordpress</tag>
-         
-        <tag>博客</tag>
-         
-        <tag>技术</tag>
-         
-         
-           
-             
-              <breadCrumb title="technology" url="https://www.haomwei.com/categories/technology/"/>
-          
-        </display>
-    </data>
-    </url>
-
-    
-  <url>
-    <loc>https://www.haomwei.com/technology/how-to-install-hexo-on-mac.html</loc>
-    <lastmod>2015-12-10T08:51:57.000Z</lastmod>
-    <data>
-        <display>
-        <title>Mac安装Hexo 3.X教程</title>
-        <pubTime>2015-04-14T16:00:00.000Z</pubTime>
-        
-        <tag>GitHub</tag>
-         
-        <tag>Hexo</tag>
-         
-        <tag>Internet</tag>
          
         <tag>博客</tag>
          
