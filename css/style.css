@@ -194,25 +194,27 @@ a:focus {
       margin: 1.4em 0 1.1em; }
     .post .post-content pre code {
       padding: 0 2em; }
-    .post .post-content p code {
-      display: inline;
-      margin: 0 5px;
-      padding: 1px 5px;
-      border: 1px solid #ccc;
-      background: #eee; }
-    .post .post-content p a {
-      color: #01579f;
-      padding-bottom: 2px;
-      word-break: break-all; }
-      .post .post-content p a:hover {
-        text-decoration: underline; }
-    .post .post-content p .caption {
-      color: #444;
-      display: block;
-      font-size: 0.9em;
-      margin-top: 0.1em;
-      position: relative;
-      text-align: center; }
+    .post .post-content p {
+      margin: 0 0 1.234em; }
+      .post .post-content p code {
+        display: inline;
+        margin: 0 5px;
+        padding: 1px 5px;
+        border: 1px solid #ccc;
+        background: #eee; }
+      .post .post-content p a {
+        color: #01579f;
+        padding-bottom: 2px;
+        word-break: break-all; }
+        .post .post-content p a:hover {
+          text-decoration: underline; }
+      .post .post-content p .caption {
+        color: #444;
+        display: block;
+        font-size: 0.9em;
+        margin-top: 0.1em;
+        position: relative;
+        text-align: center; }
     .post .post-content hr {
       margin: 2.4em auto;
       border: none;
@@ -941,7 +943,7 @@ i {
     padding-left: 0; }
 
 table {
-  margin: auto;
+  margin: auto auto 1.234em;
   min-width: 200px;
   background: transparent;
   border-collapse: collapse;
